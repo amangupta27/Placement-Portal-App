@@ -1,0 +1,272 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    tools:context="com.example.shubhama003.placeme.fragments.admin.AddCompanyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/add_compname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Comapany Name"
+                android:inputType="text"
+                android:textColor="@color/mehro"
+                android:textColorHint="@android:color/holo_red_dark" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/add_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Salary"
+                android:inputType="text"
+                android:textColor="@color/mehro"
+                android:textColorHint="@android:color/holo_red_dark" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/add_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Location"
+                android:inputType="text"
+                android:textColor="@color/mehro"
+                android:textColorHint="@android:color/holo_red_dark" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/add_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Profile"
+                android:inputType="text"
+                android:textColor="@color/mehro"
+                android:textColorHint="@android:color/holo_red_dark" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/add_cpi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="CPI cutoff"
+                android:inputType="text"
+                android:textColor="@color/mehro"
+                android:textColorHint="@android:color/holo_red_dark" />
+        </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Select Branches"
+                android:textColor="@color/mehro"
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:background="#696969">
+
+            </FrameLayout>
+
+
+            <CheckBox
+                android:id="@+id/Cs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSE"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/It"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/Ece"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ECE"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/Ele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EE"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/Mech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ME"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/Civ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIV"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/Prod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PIE"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/Bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BT"
+                android:textColor="@color/mehro" />
+
+            <CheckBox
+                android:id="@+id/Che"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHE"
+                android:textColor="@color/mehro" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/add_deadline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Deadline"
+                    android:inputType="text"
+                    android:textColor="@color/mehro"
+                    android:textColorHint="@android:color/holo_red_dark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/add_ppo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="PPO"
+                    android:inputType="text"
+                    android:textColor="@color/mehro"
+                    android:textColorHint="@android:color/holo_red_dark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/add_logourl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Logo URL"
+                    android:inputType="text"
+                    android:textColor="@color/mehro"
+                    android:textColorHint="@android:color/holo_red_dark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/add_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="URL"
+                    android:inputType="text"
+                    android:textColor="@color/mehro"
+                    android:textColorHint="@android:color/holo_red_dark" />
+            </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+            <Button
+                android:id="@+id/add_submit_op"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="25dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="SUBMIT"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

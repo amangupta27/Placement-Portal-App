@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "703265589174",
+    "firebase_url": "https://placeme-be15e.firebaseio.com",
+    "project_id": "placeme-be15e",
+    "storage_bucket": "placeme-be15e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703265589174:android:44cb1bc1dfb00d13",
+        "android_client_info": {
+          "package_name": "com.example.shubhama003.placeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703265589174-lf20dhlki3i85039hr51icr2t9mm4tg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtEf1M-8slouGvnrIAkTfQh04XQTOTRIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
