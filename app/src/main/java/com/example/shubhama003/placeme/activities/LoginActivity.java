@@ -1,5 +1,5 @@
 package com.example.shubhama003.placeme.activities;
-//Commented by Aman
+//Commented by Amanb gupta
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
